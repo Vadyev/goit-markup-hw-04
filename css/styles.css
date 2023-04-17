@@ -138,8 +138,14 @@ img {
 }
 .hero-section {
   padding: 188px 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   max-width: 1440px;
-  background-image: url(../images/peopleoffice.jpg);
+  background-color: var(--color-grey);
+  background-image: url(../images/darkbg.jpg), url(../images/peopleoffice.jpg);
 }
 .hero-button {
   display: block;
@@ -328,7 +334,7 @@ img {
   justify-content: center;
 }
 
-.customers-icons-list {
+.customers-list {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -352,7 +358,7 @@ img {
 }
 
 .customers-icon {
-  fill: var(--color-light-slate);
+  fill: currentColor;
 }
 
 /* Portfolio */
