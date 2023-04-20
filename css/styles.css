@@ -474,7 +474,6 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 .footer-left {
   margin-right: 120px;
